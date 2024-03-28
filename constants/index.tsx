@@ -32,7 +32,8 @@ export const ticketData = [
         location: "Las Vegas Ballpark, Las Vegas, Nevada",
         date: "OCT 15",
         day: "SUN",
-        time: "4:30 PM"
+        time: "4:30 PM",
+        btnText: "Take Flight Collection"
     },
     {
         img: "./ticket2.svg",
@@ -40,7 +41,8 @@ export const ticketData = [
         location: "Sutter Health Park, Sacramento, California",
         date: "OCT 15",
         day: "SUN",
-        time: "4:30 PM"
+        time: "4:30 PM",
+        btnText: "Orange Collection"
     },
     {
         img: "./ticket1.svg",
@@ -48,7 +50,8 @@ export const ticketData = [
         location: "Las Vegas Ballpark, Las Vegas, Nevada",
         date: "OCT 15",
         day: "SUN",
-        time: "4:30 PM"
+        time: "4:30 PM",
+        btnText: "Take Flight Collection"
     }
 ];
 

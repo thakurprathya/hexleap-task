@@ -4,3 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.slick-slide > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-arrow{
+    
+}

@@ -11,7 +11,7 @@ interface Props {
 
 const Advertisment = ({adData, theme} : Props) => {
     return (
-        <div className={`w-[239px] h-[511px] flex flex-col items-center p-2 shadow-lg ${theme === 'light' ? 'bg-[#ffffff]' : 'bg-[#3B3E47]'}`}>
+        <div className={`w-[239px] h-[511px] flex flex-col items-center p-2 shadow-lg cursor-pointer ${theme === 'light' ? 'bg-[#ffffff]' : 'bg-[#3B3E47]'}`}>
             <div className={`relative`}>
                 <Image src={adData?.img} width={217} height={218} alt="adv image" />
                 <div className={`absolute flex items-center justify-center top-0 right-0 text-[#ffffff] w-[48px] h-[25px] bg-black font-[700] text-[13px] leading-[19px]`}>Ad</div>

@@ -13,7 +13,7 @@ interface Props {
 
 const HeadCard = ({cardData, theme} : Props) => {
     return (
-        <div className={`w-[239px] h-[511px] p-2 shadow-lg flex flex-col ${theme === 'light' ? 'bg-[#ffffff]' : 'bg-[#3B3E47]'}`}>
+        <div className={`w-[239px] h-[511px] p-2 shadow-lg flex flex-col cursor-pointer ${theme === 'light' ? 'bg-[#ffffff]' : 'bg-[#3B3E47]'}`}>
             <Image src={cardData?.img} width={385} height={217} alt="card image" className={`self-center`} />
             <p className={`mt-[15px] font-[500] text-[17px] leading-[21px] ${theme === 'light' ? 'text-black' : 'text-[#ffffff]'}`}>{cardData?.team}</p>
             <div className={`mt-[10px] flex justify-between rounded-[2px] p-2 ${theme === 'light' ? 'bg-[#F7F7F8]' : 'bg-[#292B32]'}`}>

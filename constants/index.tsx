@@ -52,7 +52,34 @@ export const ticketData = [
         day: "SUN",
         time: "4:30 PM",
         btnText: "Take Flight Collection"
-    }
+    },
+    {
+        img: "./ticket1.svg",
+        team: "Las Vegas Aviators2",
+        location: "Las Vegas Ballpark, Las Vegas, Nevada",
+        date: "OCT 15",
+        day: "SUN",
+        time: "4:30 PM",
+        btnText: "Take Flight Collection"
+    },
+    {
+        img: "./ticket2.svg",
+        team: "Sacramento River Cats2",
+        location: "Sutter Health Park, Sacramento, California",
+        date: "OCT 15",
+        day: "SUN",
+        time: "4:30 PM",
+        btnText: "Orange Collection"
+    },
+    {
+        img: "./ticket1.svg",
+        team: "New Jersey Devils2",
+        location: "Las Vegas Ballpark, Las Vegas, Nevada",
+        date: "OCT 15",
+        day: "SUN",
+        time: "4:30 PM",
+        btnText: "Take Flight Collection"
+    },
 ];
 
 export const advertismentData = {

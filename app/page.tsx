@@ -27,7 +27,7 @@ const CustomNextArrow: React.FC<HomeProps & { onClick: React.MouseEventHandler<H
 
 export default function Home() {
     const [theme, setTheme] = useState('light');
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+    const [screenWidth, setScreenWidth] = useState(0);
     const sliderRef = useRef<Slider>(null);
     
     const HandleThemeChange = ()=>{
